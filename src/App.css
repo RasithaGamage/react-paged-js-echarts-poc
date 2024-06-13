@@ -1,0 +1,44 @@
+/* .App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100dvh;
+  padding: 2rem 4rem;
+  background-color: #282c34;
+}
+
+h2,
+p {
+  color: white;
+}
+
+@page {
+  size: A4;
+  margin: 20mm 15mm 26mm 15mm;
+  @bottom-left {
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+h2 {
+  break-before: page;
+}
+
+h2:after {
+  content: "Page " counter(page) " of " counter(pages);
+} */
+
+/* @page {
+  @top-right {
+    content: "My title";
+  }
+
+  @bottom-left {
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+section {
+  page-break-after: always;
+} */
